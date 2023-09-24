@@ -1,70 +1,189 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="budget-trans.png" alt="logo" width="240"  height="auto" />
+  <br/>
+  <h3><b>Hello World frontend App</b></h3>
+</div>
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT DESCRIPTION -->
 
-### `npm start`
+# <a name="about-project"> Hello React Frontend </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project serves as the frontend component of a larger system, seamlessly interfacing with the corresponding [hello-rails-back-end](https://github.com/MMGGYY66/hello-rails-back-end) developed using the Rails framework. Its primary function is to execute GET requests, retrieving and rendering data from the specified endpoint.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Tech Stack](#tech-stack) 🛠️
+- [Key Features](#key-features) ✨
+- [Getting Started](#getting-started) 🚀
+  - [Setup](#setup) 🔧
+  - [Installation](#installation) ⚙️
+  - [Usage](#usage) 🧰
+- [Authors](#authors) 🖋️
+- [Future Features](#future-features) 🌟
+- [Contributing](#contributing) 🤝
+- [Support](#support) 🆘
+- [Acknowledgments](#acknowledgments) 🌲
+- [License](#license) 📄
 
-### `npm run build`
+<!-- TECH STACK -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack 🛠️ <a name="tech-stack"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <ul>
+     <li><a href="https://react.dev/">React</a></li>
+      <li><a href="https://axios-http.com/docs/intro">Axios</a></li>
+     <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a></li>
+     <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+  </ul>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
+<!-- FEATURES -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ✨ Key Features<a name="key-features"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] React Router Integration: The project uses React Router to manage routing, allowing for navigation between different views within the application.
+- [x] Redux State Management: Redux is utilized to manage the application's state. The store is configured using Redux Toolkit, and a reducer (greetingsReducer) handles state updates.
+- [x] Asynchronous Data Fetching: The application incorporates asynchronous data fetching using Redux Toolkit's createAsyncThunk. It fetches data from a specified API endpoint using Axios.
+- [x] Component-Based Architecture: The code is organized into separate components for improved maintainability and readability. Notably, the Greeting component is responsible for rendering data fetched from the API.
+- [x] Responsive Design: The application's design includes responsiveness with a full-screen height (height: '100vh') and flexible styling for various screen sizes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- GETTING STARTED -->
 
-## Learn More
+## 🚀 Getting Started<a name="getting-started"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Setup 🔧<a name="setup"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. To get a local copy up and running, follow these steps.
+Choose the directory on your local machine where you want to copy project. For example:
 
-### Code Splitting
+```
+cd /home/user/name-of-your-directory
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone the project using one of the options.
 
-### Analyzing the Bundle Size
+Using SSH-key:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+git clone git@github.com:MMGGYY66/hello-react-front-end.git
 
-### Making a Progressive Web App
+```
+Using HTTPS:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+git clone https://github.com/MMGGYY66/hello-react-front-end
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Installation ⚙️<a name="installation"></a>
 
-### Deployment
+To run this project locally, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Open your terminal or command prompt.
 
-### `npm run build` fails to minify
+2. Navigate to the directory where you have cloned or downloaded the Hello React Frontend repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Run the following commands to install any required dependencies:
+
+```
+npm install
+
+```
+
+### Usage 🧰<a name="usage"></a>
+
+Follow these steps to use the Hello React Frontend:
+
+1. Setup Completion: Ensure that you have completed the setup process as mentioned earlier.
+
+2. Backend Server Check: Make sure your Rails backend is up and running. You can verify its accessibility by opening your web browser and navigating to the following URL:
+
+```
+http://localhost:3000/api
+```
+
+This URL should display the backend's response (random greeting message).
+
+3. Start Development Server: Once you've confirmed that your server is running, you can start the development server for your React app. To avoid conflicts with the Rails app (which uses port 3000), choose a different port for your React app. Run the following command:
+
+```
+npm start
+```
+
+This will launch the development server for your React frontend.
+By following these steps, you'll be able to use the Hello React Frontend in conjunction with your Rails backend.
+
+4. By default, you can access the app by opening your web browser and navigating to the following URL (assuming that port 3000 is used by Rails app):
+
+```
+http://localhost:3001
+```
+
+
+<!-- AUTHORS -->
+
+## 🖋️ Authors & Contributors<a name="authors"></a>
+
+👤 **Mohamed Gamil Eldimardash**
+
+- GitHub: [@github](https://github.com/MMGGYY66)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/)
+- Twitter: [twitter](https://twitter.com/MOHAMEDELDIMARd)
+- Facebook: [facebook](https://www.facebook.com/MOHAMED.ELDIMARDASH/)
+- StackOverflow: [stackoverflow](https://stackoverflow.com/users/13605630/mohamed-gamil-eldimardash)
+
+
+## 🌟 Future Features <a name="future-features"></a>
+
+- [ ] When new API endpoints are added, the app will dynamically render various types of data using different styles, such as text color and animation effects, to provide a more engaging user experience.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+I welcome contributions to enhance the functionality and user experience of the Hello React Frontend Application. If you have any ideas, suggestions, or bug reports, feel free to open an issue or submit a pull request. Let's share ideas!
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository, explaining your changes in detail.
+
+Please adhere to the coding conventions and guidelines specified in the project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## 🆘 Support <a name="support"></a>
+
+If you encounter any issues or have any questions or suggestions, please open an issue on the [issue tracker](../../issues/).
+Furthermore, if you would like to get in touch with me, you can find our contact information in the <a href="#authors">Authors</a> section.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🌲 Acknowledgements <a name="acknowledgments"></a>
+
+Thanks Microverse
+
+<!-- LICENSE -->
+
+## 📄 License <a name="license"></a>
+
+This project is [MIT](LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
