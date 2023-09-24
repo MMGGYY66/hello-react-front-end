@@ -1,15 +1,13 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="budget-trans.png" alt="logo" width="240"  height="auto" />
-  <br/>
-  <h3><b>Hello World frontend App</b></h3>
+  <h1><b>Hello World frontend App</b></h1>
 </div>
 
 
 <!-- PROJECT DESCRIPTION -->
 
-# <a name="about-project"> Hello React Frontend </a>
+# <a name="about-project"> Hello React Frontend APP</a>
 
 This project serves as the frontend component of a larger system, seamlessly interfacing with the corresponding [hello-rails-back-end](https://github.com/MMGGYY66/hello-rails-back-end) developed using the Rails framework. Its primary function is to execute GET requests, retrieving and rendering data from the specified endpoint.
 
